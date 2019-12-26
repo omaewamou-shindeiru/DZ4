@@ -97,7 +97,7 @@ for( i=0; i<node; i++){
 	for( j=0; j<node; j++){
 		c=arr[i][j]+c;
 		}
-	if(c%2!=0){
+	if(c%2==0){
 		k++;
 		}
 	c=0;
@@ -110,7 +110,7 @@ for( i=0; i<node; i++){
 	for( j=0; j<node; j++){
 		c=arr[i][j]+c;
 		}
-	if((c%2!=0)){
+	if((c%2==0)){
 		A[k]=i+1;
 		C[k]=c;
 		k++;
